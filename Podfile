@@ -6,5 +6,11 @@ target 'CleverQN' do
   use_frameworks!
 
   # Pods for CleverQN
+  pod 'LTMorphingLabel'
+  # pod 'CellAnimator'
+  pod 'SwiftMessages'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+  # pod 'lottie-ios'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
 
 end

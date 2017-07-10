@@ -1,0 +1,31 @@
+PODS:
+  - LTMorphingLabel (0.5.0)
+  - SkyFloatingLabelTextField (3.1.0)
+  - Spring (1.0.3)
+  - SwiftMessages (3.3.3)
+
+DEPENDENCIES:
+  - LTMorphingLabel
+  - SkyFloatingLabelTextField (~> 3.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftMessages
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 8201b5c93bd7ebdf4cd18160bcde1e6e88c2be64
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  LTMorphingLabel: bc170be74b219b7dae0e5543a44676d16da70ff7
+  SkyFloatingLabelTextField: 26a92ad407044dd5a7c3e4e348738ff0991514fe
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftMessages: 09cea3336e3fb63c3578983c8aac65acaa6d884a
+
+PODFILE CHECKSUM: b65ae085579469e703fd9d2f8c6dd63d9ae603db
+
+COCOAPODS: 1.2.1
