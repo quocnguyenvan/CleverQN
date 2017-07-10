@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CleverQN
 //
-//  Created by Quoc Nguyen on 7/10/17.
+//  Created by Quoc Nguyen on 6/5/17.
 //  Copyright © 2017 Rynan. All rights reserved.
 //
 
@@ -14,10 +14,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let navigationBarAppearace = UINavigationBar.appearance()
+        
+        navigationBarAppearace.tintColor = uiColorFromHex(rgbValue: 0xffffff)
+        navigationBarAppearace.barTintColor = uiColorFromHex(rgbValue: 0x4f4f4f)
+    
+        navigationBarAppearace.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+        // status bar light
+        UIApplication.shared.statusBarStyle = .lightContent
+        
         return true
+    }
+
+    func uiColorFromHex(rgbValue:UInt32) -> UIColor {
+        let red = CGFloat((rgbValue & 0xFF0000) >> 16)/256.0
+        let green = CGFloat((rgbValue & 0xFF00) >> 8)/256.0
+        let blue = CGFloat(rgbValue & 0xFF)/256.0
+        
+        return UIColor(red:red, green:green, blue:blue, alpha:1.0)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -53,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "CleverQN")
+        let container = NSPersistentContainer(name: "CleverApp")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

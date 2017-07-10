@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HistoryLoadingDialog" customModule="CleverApp" customModuleProvider="target">
+            <connections>
+                <outlet property="dialogView" destination="dgK-7x-LJX" id="bmA-OQ-nix"/>
+                <outlet property="lblProgress" destination="LRS-wG-SLl" id="Xnh-da-9bF"/>
+                <outlet property="progressView" destination="eTY-LG-h3C" id="fcd-M5-Rm7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgK-7x-LJX" customClass="SpringView" customModule="Spring">
+                    <rect key="frame" x="47" y="283.5" width="281" height="100"/>
+                    <subviews>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eTY-LG-h3C">
+                            <rect key="frame" x="10" y="49" width="231" height="2"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="NMJ-ad-7ku"/>
+                            </constraints>
+                        </progressView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpV-4o-qTq">
+                            <rect key="frame" x="98" y="65" width="85" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="85" id="3ug-bn-Fke"/>
+                                <constraint firstAttribute="height" constant="30" id="hEj-n9-5Gc"/>
+                            </constraints>
+                            <state key="normal" title="Cancel" backgroundImage="button_bg_chose_2">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnCancel:" destination="-1" eventType="touchUpInside" id="3VA-gX-Bcd"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRS-wG-SLl">
+                            <rect key="frame" x="256" y="42.5" width="15" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O30-wa-mom">
+                            <rect key="frame" x="10" y="15" width="68" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.82327482240000005" green="0.82327482240000005" blue="0.82327482240000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="0pa-xZ-BYs"/>
+                        <constraint firstItem="LRS-wG-SLl" firstAttribute="leading" secondItem="eTY-LG-h3C" secondAttribute="trailing" constant="15" id="8ZX-sx-OaW"/>
+                        <constraint firstItem="eTY-LG-h3C" firstAttribute="centerY" secondItem="dgK-7x-LJX" secondAttribute="centerY" id="EhZ-Jb-cr8"/>
+                        <constraint firstItem="cpV-4o-qTq" firstAttribute="top" secondItem="LRS-wG-SLl" secondAttribute="bottom" constant="8" id="LE5-AN-Txx"/>
+                        <constraint firstAttribute="bottom" secondItem="cpV-4o-qTq" secondAttribute="bottom" constant="5" id="N0Y-V3-5rV"/>
+                        <constraint firstItem="eTY-LG-h3C" firstAttribute="top" secondItem="O30-wa-mom" secondAttribute="bottom" constant="16" id="UM6-Hb-IJY"/>
+                        <constraint firstItem="O30-wa-mom" firstAttribute="leading" secondItem="dgK-7x-LJX" secondAttribute="leading" constant="10" id="XrX-6b-hvx"/>
+                        <constraint firstAttribute="trailing" secondItem="LRS-wG-SLl" secondAttribute="trailing" constant="10" id="ooj-lS-YEe"/>
+                        <constraint firstItem="cpV-4o-qTq" firstAttribute="centerX" secondItem="dgK-7x-LJX" secondAttribute="centerX" id="rad-QH-lbw"/>
+                        <constraint firstItem="eTY-LG-h3C" firstAttribute="leading" secondItem="O30-wa-mom" secondAttribute="leading" id="so7-kp-JpQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dgK-7x-LJX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Nt0-kj-B8v"/>
+                <constraint firstItem="dgK-7x-LJX" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="3/4" id="ei2-kS-U1d"/>
+                <constraint firstItem="dgK-7x-LJX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xE5-Kg-NG9"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_bg_chose_2" width="308" height="93"/>
+    </resources>
+</document>

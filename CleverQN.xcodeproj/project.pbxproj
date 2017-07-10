@@ -7,23 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178721BF1F130F1D008AE9F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721BE1F130F1D008AE9F7 /* AppDelegate.swift */; };
-		178721C11F130F1D008AE9F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721C01F130F1D008AE9F7 /* ViewController.swift */; };
-		178721C41F130F1D008AE9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178721C21F130F1D008AE9F7 /* Main.storyboard */; };
 		178721C71F130F1D008AE9F7 /* CleverQN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 178721C51F130F1D008AE9F7 /* CleverQN.xcdatamodeld */; };
 		178721C91F130F1D008AE9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178721C81F130F1D008AE9F7 /* Assets.xcassets */; };
 		178721CC1F130F1D008AE9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178721CA1F130F1D008AE9F7 /* LaunchScreen.storyboard */; };
+		178721E51F1314A6008AE9F7 /* HistoryFilterDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721DA1F1314A6008AE9F7 /* HistoryFilterDialog.xib */; };
+		178721E61F1314A6008AE9F7 /* DateTimeDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721DB1F1314A6008AE9F7 /* DateTimeDialogController.xib */; };
+		178721E71F1314A6008AE9F7 /* NameDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721DC1F1314A6008AE9F7 /* NameDialogController.xib */; };
+		178721E81F1314A6008AE9F7 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721DD1F1314A6008AE9F7 /* ModalViewController.xib */; };
+		178721E91F1314A6008AE9F7 /* AddNewUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721DE1F1314A6008AE9F7 /* AddNewUser.xib */; };
+		178721EA1F1314A6008AE9F7 /* CustomCellUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721DF1F1314A6008AE9F7 /* CustomCellUser.xib */; };
+		178721EB1F1314A6008AE9F7 /* CustomCellUser2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721E01F1314A6008AE9F7 /* CustomCellUser2.xib */; };
+		178721EC1F1314A6008AE9F7 /* CustomCellUserManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721E11F1314A6008AE9F7 /* CustomCellUserManager.xib */; };
+		178721ED1F1314A6008AE9F7 /* CustomCellInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721E21F1314A6008AE9F7 /* CustomCellInfo.xib */; };
+		178721EE1F1314A6008AE9F7 /* HeaderUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178721E31F1314A6008AE9F7 /* HeaderUser.xib */; };
+		178721EF1F1314A6008AE9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178721E41F1314A6008AE9F7 /* Main.storyboard */; };
+		178722031F1315A9008AE9F7 /* MyCustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F01F1315A9008AE9F7 /* MyCustomPresentationController.swift */; };
+		178722041F1315A9008AE9F7 /* SpinningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F11F1315A9008AE9F7 /* SpinningView.swift */; };
+		178722051F1315A9008AE9F7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F21F1315A9008AE9F7 /* CustomTextField.swift */; };
+		178722061F1315A9008AE9F7 /* LockAminationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F31F1315A9008AE9F7 /* LockAminationView.swift */; };
+		178722071F1315A9008AE9F7 /* SelectLockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F41F1315A9008AE9F7 /* SelectLockCell.swift */; };
+		178722081F1315A9008AE9F7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F51F1315A9008AE9F7 /* UserCell.swift */; };
+		178722091F1315A9008AE9F7 /* PanelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F61F1315A9008AE9F7 /* PanelCell.swift */; };
+		1787220A1F1315A9008AE9F7 /* CustomCellUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F71F1315A9008AE9F7 /* CustomCellUser.swift */; };
+		1787220B1F1315A9008AE9F7 /* CustomCellUser2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F81F1315A9008AE9F7 /* CustomCellUser2.swift */; };
+		1787220C1F1315A9008AE9F7 /* CustomHeaderUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721F91F1315A9008AE9F7 /* CustomHeaderUser.swift */; };
+		1787220D1F1315A9008AE9F7 /* HeaderUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721FA1F1315A9008AE9F7 /* HeaderUser.swift */; };
+		1787220E1F1315A9008AE9F7 /* CustomCellUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721FB1F1315A9008AE9F7 /* CustomCellUserManager.swift */; };
+		1787220F1F1315A9008AE9F7 /* CustomCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721FC1F1315A9008AE9F7 /* CustomCellInfo.swift */; };
+		178722101F1315A9008AE9F7 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721FD1F1315A9008AE9F7 /* RoundButton.swift */; };
+		178722111F1315A9008AE9F7 /* EasyPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721FE1F1315A9008AE9F7 /* EasyPopUp.swift */; };
+		178722121F1315A9008AE9F7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178721FF1F1315A9008AE9F7 /* UIViewExtensions.swift */; };
+		178722131F1315A9008AE9F7 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722001F1315A9008AE9F7 /* HistoryCell.swift */; };
+		178722141F1315A9008AE9F7 /* HistoryLoadingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722011F1315A9008AE9F7 /* HistoryLoadingDialog.swift */; };
+		178722151F1315A9008AE9F7 /* HistoryLoadingDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178722021F1315A9008AE9F7 /* HistoryLoadingDialog.xib */; };
+		1787221A1F1315CF008AE9F7 /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722161F1315CF008AE9F7 /* TriangleLayer.swift */; };
+		1787221B1F1315CF008AE9F7 /* OvalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722171F1315CF008AE9F7 /* OvalLayer.swift */; };
+		1787221C1F1315CF008AE9F7 /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722181F1315CF008AE9F7 /* HolderView.swift */; };
+		1787221D1F1315CF008AE9F7 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722191F1315CF008AE9F7 /* SplashScreenController.swift */; };
+		178722331F1315E3008AE9F7 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787221E1F1315E3008AE9F7 /* ModalViewController.swift */; };
+		178722341F1315E3008AE9F7 /* AddNewUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787221F1F1315E3008AE9F7 /* AddNewUserController.swift */; };
+		178722351F1315E3008AE9F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722201F1315E3008AE9F7 /* ViewController.swift */; };
+		178722361F1315E3008AE9F7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722211F1315E3008AE9F7 /* MainViewController.swift */; };
+		178722371F1315E3008AE9F7 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722221F1315E3008AE9F7 /* UserController.swift */; };
+		178722381F1315E3008AE9F7 /* LoginScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722231F1315E3008AE9F7 /* LoginScreenController.swift */; };
+		178722391F1315E3008AE9F7 /* PanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722241F1315E3008AE9F7 /* PanelController.swift */; };
+		1787223A1F1315E3008AE9F7 /* LockScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722251F1315E3008AE9F7 /* LockScreenController.swift */; };
+		1787223B1F1315E3008AE9F7 /* SettingScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722261F1315E3008AE9F7 /* SettingScreenController.swift */; };
+		1787223C1F1315E3008AE9F7 /* ShareScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722271F1315E3008AE9F7 /* ShareScreenController.swift */; };
+		1787223D1F1315E3008AE9F7 /* UserScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722281F1315E3008AE9F7 /* UserScreenController.swift */; };
+		1787223E1F1315E3008AE9F7 /* HistoryScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722291F1315E3008AE9F7 /* HistoryScreenController.swift */; };
+		1787223F1F1315E3008AE9F7 /* InfoScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787222A1F1315E3008AE9F7 /* InfoScreenController.swift */; };
+		178722401F1315E3008AE9F7 /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787222B1F1315E3008AE9F7 /* SlideInPresentationController.swift */; };
+		178722411F1315E3008AE9F7 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787222C1F1315E3008AE9F7 /* ActionViewController.swift */; };
+		178722421F1315E3008AE9F7 /* HistoryTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787222D1F1315E3008AE9F7 /* HistoryTableController.swift */; };
+		178722431F1315E3008AE9F7 /* DateTimeDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787222E1F1315E3008AE9F7 /* DateTimeDialogController.swift */; };
+		178722441F1315E3008AE9F7 /* NameDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787222F1F1315E3008AE9F7 /* NameDialogController.swift */; };
+		178722451F1315E3008AE9F7 /* HistoryFilterDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722301F1315E3008AE9F7 /* HistoryFilterDialogController.swift */; };
+		178722461F1315E3008AE9F7 /* RegisterLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722311F1315E3008AE9F7 /* RegisterLock.swift */; };
+		178722471F1315E3008AE9F7 /* AnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722321F1315E3008AE9F7 /* AnimationExample.swift */; };
+		178722491F1315FC008AE9F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178722481F1315FC008AE9F7 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		178721BB1F130F1D008AE9F7 /* CleverQN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleverQN.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		178721BE1F130F1D008AE9F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		178721C01F130F1D008AE9F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		178721C31F130F1D008AE9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		178721C61F130F1D008AE9F7 /* CleverQN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CleverQN.xcdatamodel; sourceTree = "<group>"; };
 		178721C81F130F1D008AE9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178721CB1F130F1D008AE9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		178721CD1F130F1D008AE9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178721DA1F1314A6008AE9F7 /* HistoryFilterDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryFilterDialog.xib; sourceTree = "<group>"; };
+		178721DB1F1314A6008AE9F7 /* DateTimeDialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTimeDialogController.xib; sourceTree = "<group>"; };
+		178721DC1F1314A6008AE9F7 /* NameDialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameDialogController.xib; sourceTree = "<group>"; };
+		178721DD1F1314A6008AE9F7 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		178721DE1F1314A6008AE9F7 /* AddNewUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddNewUser.xib; sourceTree = "<group>"; };
+		178721DF1F1314A6008AE9F7 /* CustomCellUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellUser.xib; sourceTree = "<group>"; };
+		178721E01F1314A6008AE9F7 /* CustomCellUser2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellUser2.xib; sourceTree = "<group>"; };
+		178721E11F1314A6008AE9F7 /* CustomCellUserManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellUserManager.xib; sourceTree = "<group>"; };
+		178721E21F1314A6008AE9F7 /* CustomCellInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellInfo.xib; sourceTree = "<group>"; };
+		178721E31F1314A6008AE9F7 /* HeaderUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderUser.xib; sourceTree = "<group>"; };
+		178721E41F1314A6008AE9F7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		178721F01F1315A9008AE9F7 /* MyCustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomPresentationController.swift; sourceTree = "<group>"; };
+		178721F11F1315A9008AE9F7 /* SpinningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningView.swift; sourceTree = "<group>"; };
+		178721F21F1315A9008AE9F7 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		178721F31F1315A9008AE9F7 /* LockAminationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockAminationView.swift; sourceTree = "<group>"; };
+		178721F41F1315A9008AE9F7 /* SelectLockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLockCell.swift; sourceTree = "<group>"; };
+		178721F51F1315A9008AE9F7 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		178721F61F1315A9008AE9F7 /* PanelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelCell.swift; sourceTree = "<group>"; };
+		178721F71F1315A9008AE9F7 /* CustomCellUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellUser.swift; sourceTree = "<group>"; };
+		178721F81F1315A9008AE9F7 /* CustomCellUser2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellUser2.swift; sourceTree = "<group>"; };
+		178721F91F1315A9008AE9F7 /* CustomHeaderUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderUser.swift; sourceTree = "<group>"; };
+		178721FA1F1315A9008AE9F7 /* HeaderUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderUser.swift; sourceTree = "<group>"; };
+		178721FB1F1315A9008AE9F7 /* CustomCellUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellUserManager.swift; sourceTree = "<group>"; };
+		178721FC1F1315A9008AE9F7 /* CustomCellInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellInfo.swift; sourceTree = "<group>"; };
+		178721FD1F1315A9008AE9F7 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		178721FE1F1315A9008AE9F7 /* EasyPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyPopUp.swift; sourceTree = "<group>"; };
+		178721FF1F1315A9008AE9F7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		178722001F1315A9008AE9F7 /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		178722011F1315A9008AE9F7 /* HistoryLoadingDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryLoadingDialog.swift; sourceTree = "<group>"; };
+		178722021F1315A9008AE9F7 /* HistoryLoadingDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryLoadingDialog.xib; sourceTree = "<group>"; };
+		178722161F1315CF008AE9F7 /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		178722171F1315CF008AE9F7 /* OvalLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalLayer.swift; sourceTree = "<group>"; };
+		178722181F1315CF008AE9F7 /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		178722191F1315CF008AE9F7 /* SplashScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
+		1787221E1F1315E3008AE9F7 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		1787221F1F1315E3008AE9F7 /* AddNewUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewUserController.swift; sourceTree = "<group>"; };
+		178722201F1315E3008AE9F7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		178722211F1315E3008AE9F7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		178722221F1315E3008AE9F7 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		178722231F1315E3008AE9F7 /* LoginScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenController.swift; sourceTree = "<group>"; };
+		178722241F1315E3008AE9F7 /* PanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelController.swift; sourceTree = "<group>"; };
+		178722251F1315E3008AE9F7 /* LockScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockScreenController.swift; sourceTree = "<group>"; };
+		178722261F1315E3008AE9F7 /* SettingScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingScreenController.swift; sourceTree = "<group>"; };
+		178722271F1315E3008AE9F7 /* ShareScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareScreenController.swift; sourceTree = "<group>"; };
+		178722281F1315E3008AE9F7 /* UserScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserScreenController.swift; sourceTree = "<group>"; };
+		178722291F1315E3008AE9F7 /* HistoryScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryScreenController.swift; sourceTree = "<group>"; };
+		1787222A1F1315E3008AE9F7 /* InfoScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoScreenController.swift; sourceTree = "<group>"; };
+		1787222B1F1315E3008AE9F7 /* SlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
+		1787222C1F1315E3008AE9F7 /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		1787222D1F1315E3008AE9F7 /* HistoryTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableController.swift; sourceTree = "<group>"; };
+		1787222E1F1315E3008AE9F7 /* DateTimeDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeDialogController.swift; sourceTree = "<group>"; };
+		1787222F1F1315E3008AE9F7 /* NameDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameDialogController.swift; sourceTree = "<group>"; };
+		178722301F1315E3008AE9F7 /* HistoryFilterDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryFilterDialogController.swift; sourceTree = "<group>"; };
+		178722311F1315E3008AE9F7 /* RegisterLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLock.swift; sourceTree = "<group>"; };
+		178722321F1315E3008AE9F7 /* AnimationExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationExample.swift; sourceTree = "<group>"; };
+		178722481F1315FC008AE9F7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +162,116 @@
 		178721BD1F130F1D008AE9F7 /* CleverQN */ = {
 			isa = PBXGroup;
 			children = (
-				178721BE1F130F1D008AE9F7 /* AppDelegate.swift */,
-				178721C01F130F1D008AE9F7 /* ViewController.swift */,
-				178721C21F130F1D008AE9F7 /* Main.storyboard */,
-				178721C81F130F1D008AE9F7 /* Assets.xcassets */,
-				178721CA1F130F1D008AE9F7 /* LaunchScreen.storyboard */,
-				178721CD1F130F1D008AE9F7 /* Info.plist */,
-				178721C51F130F1D008AE9F7 /* CleverQN.xcdatamodeld */,
+				178721D31F131097008AE9F7 /* App */,
+				178721D41F1310A3008AE9F7 /* Controller */,
+				178721D61F1310C8008AE9F7 /* View */,
+				178721D71F13110C008AE9F7 /* Resources */,
+				178721D81F131122008AE9F7 /* SplashScreen */,
+				178721D91F1312CE008AE9F7 /* Supporting Files */,
 			);
 			path = CleverQN;
+			sourceTree = "<group>";
+		};
+		178721D31F131097008AE9F7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				178722481F1315FC008AE9F7 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		178721D41F1310A3008AE9F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1787221E1F1315E3008AE9F7 /* ModalViewController.swift */,
+				1787221F1F1315E3008AE9F7 /* AddNewUserController.swift */,
+				178722201F1315E3008AE9F7 /* ViewController.swift */,
+				178722211F1315E3008AE9F7 /* MainViewController.swift */,
+				178722221F1315E3008AE9F7 /* UserController.swift */,
+				178722231F1315E3008AE9F7 /* LoginScreenController.swift */,
+				178722241F1315E3008AE9F7 /* PanelController.swift */,
+				178722251F1315E3008AE9F7 /* LockScreenController.swift */,
+				178722261F1315E3008AE9F7 /* SettingScreenController.swift */,
+				178722271F1315E3008AE9F7 /* ShareScreenController.swift */,
+				178722281F1315E3008AE9F7 /* UserScreenController.swift */,
+				178722291F1315E3008AE9F7 /* HistoryScreenController.swift */,
+				1787222A1F1315E3008AE9F7 /* InfoScreenController.swift */,
+				1787222B1F1315E3008AE9F7 /* SlideInPresentationController.swift */,
+				1787222C1F1315E3008AE9F7 /* ActionViewController.swift */,
+				1787222D1F1315E3008AE9F7 /* HistoryTableController.swift */,
+				1787222E1F1315E3008AE9F7 /* DateTimeDialogController.swift */,
+				1787222F1F1315E3008AE9F7 /* NameDialogController.swift */,
+				178722301F1315E3008AE9F7 /* HistoryFilterDialogController.swift */,
+				178722311F1315E3008AE9F7 /* RegisterLock.swift */,
+				178722321F1315E3008AE9F7 /* AnimationExample.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		178721D61F1310C8008AE9F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				178721F01F1315A9008AE9F7 /* MyCustomPresentationController.swift */,
+				178721F11F1315A9008AE9F7 /* SpinningView.swift */,
+				178721F21F1315A9008AE9F7 /* CustomTextField.swift */,
+				178721F31F1315A9008AE9F7 /* LockAminationView.swift */,
+				178721F41F1315A9008AE9F7 /* SelectLockCell.swift */,
+				178721F51F1315A9008AE9F7 /* UserCell.swift */,
+				178721F61F1315A9008AE9F7 /* PanelCell.swift */,
+				178721F71F1315A9008AE9F7 /* CustomCellUser.swift */,
+				178721F81F1315A9008AE9F7 /* CustomCellUser2.swift */,
+				178721F91F1315A9008AE9F7 /* CustomHeaderUser.swift */,
+				178721FA1F1315A9008AE9F7 /* HeaderUser.swift */,
+				178721FB1F1315A9008AE9F7 /* CustomCellUserManager.swift */,
+				178721FC1F1315A9008AE9F7 /* CustomCellInfo.swift */,
+				178721FD1F1315A9008AE9F7 /* RoundButton.swift */,
+				178721FE1F1315A9008AE9F7 /* EasyPopUp.swift */,
+				178721FF1F1315A9008AE9F7 /* UIViewExtensions.swift */,
+				178722001F1315A9008AE9F7 /* HistoryCell.swift */,
+				178722011F1315A9008AE9F7 /* HistoryLoadingDialog.swift */,
+				178722021F1315A9008AE9F7 /* HistoryLoadingDialog.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		178721D71F13110C008AE9F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				178721DA1F1314A6008AE9F7 /* HistoryFilterDialog.xib */,
+				178721DB1F1314A6008AE9F7 /* DateTimeDialogController.xib */,
+				178721DC1F1314A6008AE9F7 /* NameDialogController.xib */,
+				178721DD1F1314A6008AE9F7 /* ModalViewController.xib */,
+				178721DE1F1314A6008AE9F7 /* AddNewUser.xib */,
+				178721DF1F1314A6008AE9F7 /* CustomCellUser.xib */,
+				178721E01F1314A6008AE9F7 /* CustomCellUser2.xib */,
+				178721E11F1314A6008AE9F7 /* CustomCellUserManager.xib */,
+				178721E21F1314A6008AE9F7 /* CustomCellInfo.xib */,
+				178721E31F1314A6008AE9F7 /* HeaderUser.xib */,
+				178721E41F1314A6008AE9F7 /* Main.storyboard */,
+				178721C81F130F1D008AE9F7 /* Assets.xcassets */,
+				178721CA1F130F1D008AE9F7 /* LaunchScreen.storyboard */,
+				178721C51F130F1D008AE9F7 /* CleverQN.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		178721D81F131122008AE9F7 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				178722161F1315CF008AE9F7 /* TriangleLayer.swift */,
+				178722171F1315CF008AE9F7 /* OvalLayer.swift */,
+				178722181F1315CF008AE9F7 /* HolderView.swift */,
+				178722191F1315CF008AE9F7 /* SplashScreenController.swift */,
+			);
+			name = SplashScreen;
+			sourceTree = "<group>";
+		};
+		178721D91F1312CE008AE9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				178721CD1F130F1D008AE9F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +334,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178721E91F1314A6008AE9F7 /* AddNewUser.xib in Resources */,
 				178721CC1F130F1D008AE9F7 /* LaunchScreen.storyboard in Resources */,
+				178721E71F1314A6008AE9F7 /* NameDialogController.xib in Resources */,
+				178721EE1F1314A6008AE9F7 /* HeaderUser.xib in Resources */,
+				178721E81F1314A6008AE9F7 /* ModalViewController.xib in Resources */,
 				178721C91F130F1D008AE9F7 /* Assets.xcassets in Resources */,
-				178721C41F130F1D008AE9F7 /* Main.storyboard in Resources */,
+				178721EA1F1314A6008AE9F7 /* CustomCellUser.xib in Resources */,
+				178721EF1F1314A6008AE9F7 /* Main.storyboard in Resources */,
+				178721E61F1314A6008AE9F7 /* DateTimeDialogController.xib in Resources */,
+				178722151F1315A9008AE9F7 /* HistoryLoadingDialog.xib in Resources */,
+				178721EC1F1314A6008AE9F7 /* CustomCellUserManager.xib in Resources */,
+				178721E51F1314A6008AE9F7 /* HistoryFilterDialog.xib in Resources */,
+				178721EB1F1314A6008AE9F7 /* CustomCellUser2.xib in Resources */,
+				178721ED1F1314A6008AE9F7 /* CustomCellInfo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,23 +358,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178721C11F130F1D008AE9F7 /* ViewController.swift in Sources */,
+				178722451F1315E3008AE9F7 /* HistoryFilterDialogController.swift in Sources */,
+				178722141F1315A9008AE9F7 /* HistoryLoadingDialog.swift in Sources */,
+				1787221B1F1315CF008AE9F7 /* OvalLayer.swift in Sources */,
+				178722491F1315FC008AE9F7 /* AppDelegate.swift in Sources */,
+				1787223A1F1315E3008AE9F7 /* LockScreenController.swift in Sources */,
+				1787223F1F1315E3008AE9F7 /* InfoScreenController.swift in Sources */,
+				1787220B1F1315A9008AE9F7 /* CustomCellUser2.swift in Sources */,
+				1787220D1F1315A9008AE9F7 /* HeaderUser.swift in Sources */,
+				1787220C1F1315A9008AE9F7 /* CustomHeaderUser.swift in Sources */,
+				1787220A1F1315A9008AE9F7 /* CustomCellUser.swift in Sources */,
+				1787223D1F1315E3008AE9F7 /* UserScreenController.swift in Sources */,
+				1787221D1F1315CF008AE9F7 /* SplashScreenController.swift in Sources */,
+				178722371F1315E3008AE9F7 /* UserController.swift in Sources */,
+				178722361F1315E3008AE9F7 /* MainViewController.swift in Sources */,
+				178722071F1315A9008AE9F7 /* SelectLockCell.swift in Sources */,
+				1787221A1F1315CF008AE9F7 /* TriangleLayer.swift in Sources */,
+				1787220E1F1315A9008AE9F7 /* CustomCellUserManager.swift in Sources */,
+				1787220F1F1315A9008AE9F7 /* CustomCellInfo.swift in Sources */,
+				178722331F1315E3008AE9F7 /* ModalViewController.swift in Sources */,
+				178722061F1315A9008AE9F7 /* LockAminationView.swift in Sources */,
+				178722461F1315E3008AE9F7 /* RegisterLock.swift in Sources */,
+				178722401F1315E3008AE9F7 /* SlideInPresentationController.swift in Sources */,
+				178722341F1315E3008AE9F7 /* AddNewUserController.swift in Sources */,
+				178722471F1315E3008AE9F7 /* AnimationExample.swift in Sources */,
+				178722031F1315A9008AE9F7 /* MyCustomPresentationController.swift in Sources */,
+				178722421F1315E3008AE9F7 /* HistoryTableController.swift in Sources */,
+				178722441F1315E3008AE9F7 /* NameDialogController.swift in Sources */,
+				178722121F1315A9008AE9F7 /* UIViewExtensions.swift in Sources */,
+				178722051F1315A9008AE9F7 /* CustomTextField.swift in Sources */,
+				178722081F1315A9008AE9F7 /* UserCell.swift in Sources */,
+				1787223C1F1315E3008AE9F7 /* ShareScreenController.swift in Sources */,
+				178722431F1315E3008AE9F7 /* DateTimeDialogController.swift in Sources */,
+				178722041F1315A9008AE9F7 /* SpinningView.swift in Sources */,
+				178722131F1315A9008AE9F7 /* HistoryCell.swift in Sources */,
 				178721C71F130F1D008AE9F7 /* CleverQN.xcdatamodeld in Sources */,
-				178721BF1F130F1D008AE9F7 /* AppDelegate.swift in Sources */,
+				178722381F1315E3008AE9F7 /* LoginScreenController.swift in Sources */,
+				178722411F1315E3008AE9F7 /* ActionViewController.swift in Sources */,
+				178722351F1315E3008AE9F7 /* ViewController.swift in Sources */,
+				178722101F1315A9008AE9F7 /* RoundButton.swift in Sources */,
+				1787221C1F1315CF008AE9F7 /* HolderView.swift in Sources */,
+				1787223E1F1315E3008AE9F7 /* HistoryScreenController.swift in Sources */,
+				178722091F1315A9008AE9F7 /* PanelCell.swift in Sources */,
+				178722111F1315A9008AE9F7 /* EasyPopUp.swift in Sources */,
+				1787223B1F1315E3008AE9F7 /* SettingScreenController.swift in Sources */,
+				178722391F1315E3008AE9F7 /* PanelController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		178721C21F130F1D008AE9F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				178721C31F130F1D008AE9F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		178721CA1F130F1D008AE9F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -306,6 +558,7 @@
 				178721D21F130F1D008AE9F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="Hcc-aV-CA3" customClass="AddNewUserController" customModule="CleverApp" customModuleProvider="target">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="q9B-LY-pSl"/>
+                <viewControllerLayoutGuide type="bottom" id="Pai-uV-gCn"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="tKb-32-bKl">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KNm-Ze-bqM">
+                        <rect key="frame" x="42" y="166" width="319" height="31"/>
+                    </slider>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lfp-nT-bM6">
+                        <rect key="frame" x="44" y="212" width="315" height="167"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="167" id="F1s-7D-eki"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="lfp-nT-bM6" firstAttribute="top" secondItem="KNm-Ze-bqM" secondAttribute="bottom" constant="16" id="JJZ-Vl-DqY"/>
+                    <constraint firstItem="lfp-nT-bM6" firstAttribute="leading" secondItem="KNm-Ze-bqM" secondAttribute="leading" id="KJW-F3-mSX"/>
+                    <constraint firstItem="KNm-Ze-bqM" firstAttribute="top" secondItem="q9B-LY-pSl" secondAttribute="bottom" constant="146" id="MK0-8n-pEQ"/>
+                    <constraint firstItem="KNm-Ze-bqM" firstAttribute="centerX" secondItem="lfp-nT-bM6" secondAttribute="centerX" id="cNa-qw-zOE"/>
+                    <constraint firstItem="KNm-Ze-bqM" firstAttribute="leading" secondItem="tKb-32-bKl" secondAttribute="leadingMargin" constant="28" id="cfe-ip-SKT"/>
+                    <constraint firstItem="KNm-Ze-bqM" firstAttribute="trailing" secondItem="tKb-32-bKl" secondAttribute="trailingMargin" id="p2x-qy-chI"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="25" y="164"/>
+        </viewController>
+    </objects>
+</document>
